@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: abuathaf/simple-apps:v3
+    image: abualthaf/simple-apps:v3
     container_name: nodejs-app
     ports:
       - "3000:3000"
